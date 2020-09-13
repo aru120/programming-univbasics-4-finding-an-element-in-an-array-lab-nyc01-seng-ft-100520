@@ -3,6 +3,6 @@ def find_element_index(array, value_to_find)
   
  for i in array
  if(array[i] == value_to_find)
-return array.index(i)
+return i
  end
 end
